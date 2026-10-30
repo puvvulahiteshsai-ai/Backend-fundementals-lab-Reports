@@ -8,7 +8,7 @@
 
 ## Deployment
 
-- Live deployment URL: Not deployed yet.
+- Live deployment URL: https://backend-fundementals-lab-reports.onrender.com/
 
 ## Project objective
 
