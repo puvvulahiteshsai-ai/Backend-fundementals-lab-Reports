@@ -92,3 +92,21 @@ The server listens on `http://localhost:3000/`.
 | **PUT** | `/books/:bookId/` | Update existing book details | JSON: `{ title, author, price, pages }` | `200 OK` update success message |
 | **DELETE** | `/books/:bookId/` | Remove a book by ID | None | `200 OK` delete success message |
 
+## Screenshots
+
+### 1. GET All Books
+![GET All Books](screenshots/get-all-books.png)
+
+### 2. GET Single Book
+![GET Single Book](screenshots/get-single-book.png)
+
+### 3. POST - Add New Book
+![POST Book](screenshots/post-book.png)
+
+### 4. PUT - Update Book
+![PUT Book](screenshots/put-book.png)
+
+### 5. DELETE - Remove Book
+![DELETE Book](screenshots/delete-book.png)
+
+
