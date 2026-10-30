@@ -1,5 +1,3 @@
-# Lab 02: SQLite Database and CRUD Routes
-
 ## Lab 2: SQLite Database and CRUD Routes
 
 ## Student information
