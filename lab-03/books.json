@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen",
+    "price": 850,
+    "pages": 1312
+  },
+  {
+    "title": "Design Patterns",
+    "author": "Erich Gamma",
+    "price": 620,
+    "pages": 395
+  },
+  {
+    "title": "You Don't Know JS",
+    "author": "Kyle Simpson",
+    "price": 350,
+    "pages": 278
+  },
+  {
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "price": 580,
+    "pages": 448
+  },
+  {
+    "title": "Head First Design Patterns",
+    "author": "Eric Freeman",
+    "price": 520,
+    "pages": 694
+  },
+  {
+    "title": "Cracking the Coding Interview",
+    "author": "Gayle Laakmann McDowell",
+    "price": 750,
+    "pages": 687
+  },
+  {
+    "title": "Grokking Algorithms",
+    "author": "Aditya Bhargava",
+    "price": 420,
+    "pages": 256
+  },
+  {
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "price": 790,
+    "pages": 616
+  },
+  {
+    "title": "Clean Architecture",
+    "author": "Robert C. Martin",
+    "price": 480,
+    "pages": 352
+  },
+  {
+    "title": "Fluent Python",
+    "author": "Luciano Ramalho",
+    "price": 680,
+    "pages": 792
+  },
+  {
+    "title": "Don't Make Me Think",
+    "author": "Steve Krug",
+    "price": 380,
+    "pages": 216
+  },
+  {
+    "title": "Zero to One",
+    "author": "Peter Thiel",
+    "price": 300,
+    "pages": 224
+  },
+  {
+    "title": "The Mythical Man-Month",
+    "author": "Frederick P. Brooks Jr.",
+    "price": 450,
+    "pages": 322
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "price": 490,
+    "pages": 443
+  }
+]
