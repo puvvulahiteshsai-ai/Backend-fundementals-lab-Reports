@@ -21,8 +21,7 @@
 
 The RESTful Book Management API is deployed on Render.
 
-**Live API URL:** [https://backend-lab-3-ziaw.onrender.com](https://backend-lab-3-ziaw.onrender.com)
-
+**Live API URL:**https://backend-fundementals-lab-reports-1.onrender.com/
 ### API Endpoints
 
 | Method | Endpoint | Description |
