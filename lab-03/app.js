@@ -7,31 +7,45 @@ app.use(express.json());
 
 let db;
 
-
 const initializeDBAndServer = async () => {
   try {
-    db = await openDatabase();
+    if (!db) {
+      db = await openDatabase();
 
-    await db.run(`
-      CREATE TABLE IF NOT EXISTS book (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        title TEXT,
-        author TEXT,
-        price INTEGER,
-        pages INTEGER
-      );
-    `);
+      await db.run(`
+        CREATE TABLE IF NOT EXISTS book (
+          id INTEGER PRIMARY KEY AUTOINCREMENT,
+          title TEXT,
+          author TEXT,
+          price INTEGER,
+          pages INTEGER
+        );
+      `);
 
-    console.log("Book table created successfully");
+      console.log("Book table created successfully");
+    }
 
-    const port = process.env.PORT || 3000;
-    app.listen(port, () => {
-      console.log(`Server running at http://localhost:${port}/`);
-    });
+    if (!process.env.VERCEL) {
+      const port = process.env.PORT || 3000;
+      app.listen(port, () => {
+        console.log(`Server running at http://localhost:${port}/`);
+      });
+    }
   } catch (error) {
     console.log(`Database error: ${error.message}`);
   }
 };
+
+app.use(async (request, response, next) => {
+  try {
+    if (!db) {
+      await initializeDBAndServer();
+    }
+    next();
+  } catch (error) {
+    next(error);
+  }
+});
 
 
 app.get("/about/", (request, response) => {
