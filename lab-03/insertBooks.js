@@ -4,6 +4,19 @@ const fs = require("fs");
 const insertBooks = async () => {
   const db = await openDatabase();
 
+  await db.run(`
+    CREATE TABLE IF NOT EXISTS book (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      title TEXT,
+      author TEXT,
+      price INTEGER,
+      pages INTEGER
+    );
+  `);
+
+  await db.run(`DELETE FROM book;`);
+  await db.run(`DELETE FROM sqlite_sequence WHERE name = 'book';`);
+
   const data = fs.readFileSync("./books.json", "utf8");
   const books = JSON.parse(data);
 
