@@ -93,19 +93,19 @@ Screenshots of the working application are stored in the `screenshots/` director
 
 ### 1. Home Route
 
-![Home Route](./lab-01/screenshots/home.png)
+![Home Route](./screenshots/home.png)
 
 ### 2. About Route
 
-![About Route](./lab-01/screenshots/about.png)
+![About Route](./screenshots/about.png)
 
 ### 3. Time Route
 
-![Time Route](./lab-01/screenshots/time.png)
+![Time Route](./screenshots/time.png)
 
 ### 4. Unknown Route — 404 Not Found
 
-![404 Route](./lab-01/screenshots/not-found.pngng)
+![404 Route](./screenshots/not-found.pngng)
 ## Notes: problems faced and solutions
 
 Record any issues you encounter and how you resolved them. For example:
