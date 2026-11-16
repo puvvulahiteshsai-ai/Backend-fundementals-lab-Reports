@@ -105,7 +105,7 @@ Screenshots of the working application are stored in the `screenshots/` director
 
 ### 4. Unknown Route — 404 Not Found
 
-![404 Route](./screenshots/not-found.pngng)
+![404 Route](./screenshots/not-found.png)
 ## Notes: problems faced and solutions
 
 Record any issues you encounter and how you resolved them. For example:
