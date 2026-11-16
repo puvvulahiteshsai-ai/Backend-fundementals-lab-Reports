@@ -5,6 +5,10 @@
 - **Name:** P.Hitesh sai
 - **Registration number:** 252U1R9135
 - **Section:** S-26
+## Deployment
+
+- Live deployment URL: https://lab-01-mauve.vercel.app/
+
 
 ## Project objective
 
