@@ -89,20 +89,23 @@ The first three URLs should return the results described in the endpoint table. 
 
 ## Screenshots
 
-The screenshots in this folder were supplied by the student and show the browser responses as captured. They are included as evidence; the 404 screenshot shows the page response but not its HTTP status code in Developer Tools.
+Screenshots of the working application are stored in the `screenshots/` directory.
 
-1. The submitted screenshots below are actual browser captures from the student.
-2. For evidence of a status code, capture Chrome with the request selected in **Network** and its **Status Code** visible in **Headers**.
-3. Save any additional screenshots you capture in this folder.
-4. The submitted home-page, about-route, time-route, and not-found screenshots are saved in the folder:
+### 1. Home Route
 
-- Home page: screenshots/home.png
-- About page: screenshots/about.png
-- Time page: screenshots/time.png
-- 404 response: screenshots/not-found.png
+![Home Route](./lab-01/screenshots/home.png)
 
-The not-found screenshot shows the response page. To capture the HTTP status code too, follow the Chrome Developer Tools steps above and save a separate screenshot with the Network request's **Status Code** visible.
+### 2. About Route
 
+![About Route](./lab-01/screenshots/about.png)
+
+### 3. Time Route
+
+![Time Route](./lab-01/screenshots/time.png)
+
+### 4. Unknown Route — 404 Not Found
+
+![404 Route](./lab-01/screenshots/not-found.pngng)
 ## Notes: problems faced and solutions
 
 Record any issues you encounter and how you resolved them. For example:
